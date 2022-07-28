@@ -1,10 +1,16 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  title = 'MeliApp2';
+export class AppComponent implements OnInit{
+  
+  title : string | undefined;
+  
+  ngOnInit(): void {
+    this.title = 'MeliApp2';
+  }
+
 }
