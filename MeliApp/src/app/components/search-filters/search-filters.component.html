@@ -1,0 +1,16 @@
+<mat-form-field appearance="fill">
+  <mat-label>Categorías</mat-label>
+  <mat-select >
+    <mat-option *ngFor="let c of categories" [value]="c.value">
+      {{c.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+<button>Ofertas</button> 
+<button>Historial</button> 
+<button>Supermercado</button> 
+<button>Moda</button> 
+<button>Vender</button> 
+<button>Ayuda</button> 
+
+

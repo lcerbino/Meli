@@ -8,6 +8,9 @@ import { SideFiltersComponent } from './components/side-filters/side-filters.com
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import {MatIconModule} from '@angular/material/icon';
+import { SearchFiltersComponent } from './components/search-filters/search-filters.component';
+import {MatSelectModule} from '@angular/material/select';
+import { MyAccountComponent } from './components/my-account/my-account.component';
 
 @NgModule({
   declarations: [
@@ -15,13 +18,16 @@ import {MatIconModule} from '@angular/material/icon';
     HeaderComponent,
     FooterComponent,
     SideFiltersComponent,
-    SearchBarComponent
+    SearchBarComponent,
+    SearchFiltersComponent,
+    MyAccountComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatIconModule
+    MatIconModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

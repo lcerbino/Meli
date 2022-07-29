@@ -1,0 +1,41 @@
+::ng-deep .mat-form-field-flex {
+    height: 38px !important;
+    background: transparent !important;
+    width: 120px !important;
+
+    }
+
+::ng-deep .mat-form-field-wrapper {
+    height: 38px !important
+    }
+
+::ng-deep .mat-form-field-underline {
+    display: none;
+    }
+
+
+::ng-deep .mat-select-panel {
+    background: black;
+  }
+
+  ::ng-deep .mat-option-text{
+    color:white;
+  }
+
+  ::ng-deep .mat-select-panel {
+    max-height: 342px !important;
+ }
+
+::ng-deep .mat-form-field{
+  transform: translateY(-10%);
+}
+
+ button{
+  background: transparent;
+  border: none;
+  color: grey;
+  /* margin-bottom: 57px; */
+  transform: translateY(-79%);
+  color: rgba(0,0,0,0.63);
+  padding-right: 15px;
+ }
